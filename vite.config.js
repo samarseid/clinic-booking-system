@@ -4,5 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/clinic-booking"
+  base: '/clinic-booking/',
+  server: {
+    port: 3000
+  }
+  
 })
