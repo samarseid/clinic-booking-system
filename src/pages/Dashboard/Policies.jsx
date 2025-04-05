@@ -77,7 +77,7 @@ const Policies = () => {
             onClick={() => navigate("/dashboard")}
             className="bg-indigo-600 text-white px-8 py-3 rounded-xl hover:bg-indigo-700 transition text-lg font-medium shadow-md"
           >
-            Dashboardga qaytish
+            Asosiy Sahifaga qaytish
           </button>
         </div>
       </div>

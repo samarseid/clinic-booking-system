@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import SignUp from "./pages/Sign/SingUp";
 import SignIn from "./pages/Sign/SignIn";
-import Dashboard from "./pages/Clinic/Dashboard";
-import Profile from "./pages/Clinic/Profile";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import Profile from "./pages/Dashboard/Profile";
 import Clinics from "./pages/Clinic/Clinics";
 import ClinicDetails from "./pages/Clinic/ClinicDetails";
-import MyAppointments from "./pages/Clinic/MyAppointments"; // MyAppointments sahifasini import qilamiz
-import Policies from "./pages/Clinic/Policies";
+import MyAppointments from "./pages/Dashboard/MyAppointments"; // MyAppointments sahifasini import qilamiz
+import Policies from "./pages/Dashboard/Policies";
 
 function App() {
   return (

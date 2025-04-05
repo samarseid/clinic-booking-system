@@ -147,7 +147,7 @@ const Profile = () => {
             onClick={() => navigate("/dashboard")}
             className="bg-slate-300 text-slate-800 px-6 py-3 rounded-lg hover:bg-slate-400 transition"
           >
-            Dashboardga qaytish
+            Asosiy Sahifaga qaytish
           </button>
         </div>
 
